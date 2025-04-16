@@ -50,7 +50,7 @@ button:focus {
   color: #6b7280;
 }
 
-.controls input {
+/* .controls input {
 }
 
 .label.invalid {
@@ -61,7 +61,7 @@ input.invalid {
   color: #ef4444;
   border-color: #f73f3f;
   background-color: #fed2d2;
-}
+} */
 
 .actions {
   display: flex;
