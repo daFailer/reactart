@@ -57,7 +57,7 @@ export default function AuthInputs() {
     <div id="auth-inputs">
       <ControlContainer>
         <p>
-          <Label className={`label ${emailNotValid ? 'invalid' : undefined}`}>Email</Label>
+          <Label className={`label ${emailNotValid ? 'invalid' : ''}`}>Email</Label>
           <Input
             type="email"
             className={emailNotValid ? 'invalid' : undefined}
@@ -65,7 +65,7 @@ export default function AuthInputs() {
           />
         </p>
         <p>
-          <Label className={`label ${passwordNotValid ? 'invalid' : undefined}`}>Password</Label>
+          <Label className={`label ${passwordNotValid ? 'invalid' : ''}`}>Password</Label>
           <Input
             type="password"
             className={passwordNotValid ? 'invalid' : undefined}
