@@ -28,6 +28,16 @@ const Actions = styled.div`
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+
+  .text-button {
+    color: #f0b322;
+    border: none;
+  }
+
+  .text-button:hover {
+    color: #f0920e;
+  }
+  
 `;
 
 export default function AuthInputs() {
